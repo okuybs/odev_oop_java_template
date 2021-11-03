@@ -3,30 +3,25 @@ package ybs.oop.project1;
 public class Main {
 
 	public static void main(String[] args) {	
-		int received = calc(5);
-		System.out.println(received);
+		calc(5);
 	}
 	
-	public static int calc(int limit){
-		/*
-		Öncelikle bu sınıfla aynı klasörde bir Calculator sınıfı oluşturunuz.
-		Sınıf dosyasının ilk satırına yukarıdaki package satırını aynen yazınız.
-		Calculator sınıfının constructor methodu içerisine parametre almasın.
-		Calculator sınıfına adı fibonacci, parametresi int limit olan, geri dönüş değeri int olan public
-		bir method yazınız. Bu method recursive olarak geriye doğru gidip fibonacci sayılarını hesaplamalı.
-		fibonacci sayıları kendinden önce yer alan iki sayının toplamı şeklinde örüntü oluşturan sayılardır.
-		örneğin 1,1,2,3,5,8,13,21,34,55... şeklinde devam eder.
-		fibonacci sayılarının ilk ikisi 1,1 olarak kabul edilmelidir. Parametre olarak alınan  limit ise 
-		kaçıncı fibonacci sayısını bulmak istediğinizi belirtmek için kullanılacaktır. 
-		Oluşturduğunuz Calculator sınıfından adını kendiniz belirleyeceğiniz 
-		yeni bir instance oluşturunuz. Oluşturduğunuz instance a ait fibonacci metodunu limit parametresi ile
-		çalıştırıp dönen sonucu int result değişkenine atayınız. 
-		*/
-		/**********++++++++++**********/	
+	public static void calc(int limit){
 		
-		//bu satırı silerek kodlarınızı buraya yazınız.
+		Ã–ncelikle bu sÄ±nÄ±fla aynÄ± klasÃ¶rde bir Calculator sÄ±nÄ±fÄ± oluÅŸturunuz.
+		SÄ±nÄ±f dosyasÄ±nÄ±n ilk satÄ±rÄ±na yukarÄ±daki package satÄ±rÄ±nÄ± aynen yazÄ±nÄ±z.
+		Calculator sÄ±nÄ±fÄ±nÄ±n constructor methodu iÃ§erisine parametre almasÄ±n.
+		Calculator sÄ±nÄ±fÄ±na adÄ± fibonacci, parametresi int limit olan, geri dÃ¶nÃ¼ÅŸ deÄŸeri int olan public
+		bir method yazÄ±nÄ±z. Bu method recursive olarak geriye doÄŸru gidip fibonacci sayÄ±larÄ±nÄ± hesaplamalÄ±.
+		fibonacci sayÄ±larÄ± kendinden Ã¶nce yer alan iki sayÄ±nÄ±n toplamÄ± ÅŸeklinde Ã¶rÃ¼ntÃ¼ oluÅŸturan sayÄ±lardÄ±r.
+		Ã¶rneÄŸin 1,1,2,3,5,8,13,21,34,55... ÅŸeklinde devam eder.
+		fibonacci sayÄ±larÄ±nÄ±n ilk ikisi 1,1 olarak kabul edilmelidir. Parametre olarak alÄ±nan  limit ise 
+		kaÃ§Ä±ncÄ± fibonacci sayÄ±sÄ±nÄ± bulmak istediÄŸinizi belirtmek iÃ§in kullanÄ±lacaktÄ±r. 
+		OluÅŸturduÄŸunuz Calculator sÄ±nÄ±fÄ±ndan adÄ±nÄ± kendiniz belirleyeceÄŸiniz 
+		yeni bir instance oluÅŸturunuz. OluÅŸturduÄŸunuz instance a ait fibonacci metodunu limit parametresi ile
+		Ã§alÄ±ÅŸtÄ±rÄ±p dÃ¶nen sonucu ekrana yazÄ±nÄ±z. 
 		
-		/**********++++++++++**********/
-		return result;
+		bu method iÃ§erisindeki tÃ¼m yazÄ±larÄ± silerek kodlarÄ±nÄ±zÄ± buraya yazÄ±nÄ±z.
+		
 	}
 }
